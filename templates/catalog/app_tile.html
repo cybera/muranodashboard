@@ -1,0 +1,34 @@
+{% load i18n %}
+{% load url from future %}
+
+{% block page_header %}
+<style>
+.well:hover {
+      float: left;
+}
+</style>
+{% endblock page_header %}
+
+<div class="span4 well app">
+    <div class="app-description">
+        <div class="span1 app-icon">
+            <img src="{% url 'horizon:murano:catalog:images' app.id %}"/>
+        </div>
+    <div class="span3 app-summary description">
+        <h4>{{ app.name }}</h4>
+        <p>{{ app.description|truncatechars:110 }}</p>
+    </div>
+
+    <div class="app-actions">
+        <div class="span3 btn-group">
+            {% with class='btn btn-small ajax-modal' %}
+                {% include 'catalog/add_app.html' %}
+            {% endwith %}
+            {% with class='btn btn-small ajax-modal' %}
+                {% include 'catalog/quick_deploy.html' %}
+            {% endwith %}
+        </div>
+        <div class="span1"><a href="{% url 'horizon:murano:catalog:application_details' app.id %}" class="btn-link pull-right">Details &raquo;</a></div>
+    </div>
+    </div>
+</div>

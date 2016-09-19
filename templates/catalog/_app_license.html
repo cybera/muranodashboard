@@ -1,0 +1,18 @@
+{% load i18n %}
+{% load url from future %}
+
+
+<div class="status row-fluid detail app_overview">
+ <div class="app-meta">
+     <div class="app-metadata">
+    <p>
+        {% if application.license %}
+            {{ application.license|linebreaksbr }}
+        {% else %}
+            {% trans 'No license' %}
+        {% endif %}
+    </p>
+  </div>
+</div>
+
+</div>
