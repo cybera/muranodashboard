@@ -21,6 +21,7 @@ from muranodashboard import dashboard
 class PackageDefinitions(horizon.Panel):
     name = _("Package Definitions")
     slug = 'packages'
+    permissions = ('openstack.roles.admin',)
 
 
 dashboard.Murano.register(PackageDefinitions)

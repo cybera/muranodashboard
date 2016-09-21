@@ -21,6 +21,7 @@ from muranodashboard import dashboard
 class Images(horizon.Panel):
     name = _("Images")
     slug = 'images'
+    permissions = ('openstack.roles.admin',)
 
 
 dashboard.Murano.register(Images)
