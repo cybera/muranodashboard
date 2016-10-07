@@ -66,6 +66,8 @@ def _truncate_type(type_str, num_of_chars):
 
 
 def _application_info(application, app_image, status):
+    if not 'name' in application:
+        application['name'] = ''
     context = {'name': application['name'],
                'type': _truncate_type(application['?']['type'], 45),
                'status': status,
