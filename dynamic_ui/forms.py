@@ -51,7 +51,8 @@ TYPES.update({
     'azone': fields.AZoneChoiceField,
     'text': (fields.CharField, forms.Textarea),
     'choice': fields.ChoiceField,
-    'floatingip': fields.FloatingIpBooleanField
+    'floatingip': fields.FloatingIpBooleanField,
+    'tenantid': fields.TenantIDField
 })
 
 # From Horizon project/instances/workflow/create_instance
