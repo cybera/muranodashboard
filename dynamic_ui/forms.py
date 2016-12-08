@@ -52,7 +52,8 @@ TYPES.update({
     'text': (fields.CharField, forms.Textarea),
     'choice': fields.ChoiceField,
     'floatingip': fields.FloatingIpBooleanField,
-    'tenantid': fields.TenantIDField
+    'tenantid': fields.TenantIDField,
+    'username': fields.UsernameField
 })
 
 # From Horizon project/instances/workflow/create_instance

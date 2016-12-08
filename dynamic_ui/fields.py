@@ -219,8 +219,23 @@ class TenantIDField(CharField):
         super(CustomPropertiesField, self).__init__(*args, **kwargs)
     @with_request
     def update(self, request, **kwargs):
-        self.hidden = True
         self.initial = request.user.tenant_id
+
+
+class UsernameField(CharField):
+    def __init__(self, description=None, description_title=None, *args, **kwargs):
+        self.max_length = 255
+        self.description = description
+        self.description_title = (description_title or
+                                  unicode(kwargs.get('label', '')))
+
+        validators = []
+        kwargs['validators'] = validators
+
+        super(CustomPropertiesField, self).__init__(*args, **kwargs)
+    @with_request
+    def update(self, request, **kwargs):
+        self.initial = request.user.username
 
 
 
