@@ -45,10 +45,10 @@ def _generate_hostname(pattern, number):
     """
     global _random_string_counter
 
-    if pattern and isinstance(pattern, types.UnicodeType):
-        return pattern.replace(u'#', unicode(number))
-    elif pattern:
-        return pattern.replace('#', str(number))
+#    if pattern and isinstance(pattern, types.UnicodeType):
+#        return pattern.replace(u'#', unicode(number))
+#    elif pattern:
+#        return pattern.replace('#', str(number))
 
     counter = _random_string_counter or 1
     # generate first 5 random chars
@@ -60,6 +60,11 @@ def _generate_hostname(pattern, number):
     # (1295 is last 2-digit number in base-36, 1296 is first 3-digit number)
     suffix = helpers.int2base(counter, 36)
     _random_string_counter = (counter + 1) % 1296
+
+    if pattern:
+        pattern_replaced = pattern.replace('#', str(number))
+        return pattern_replaced + prefix
+
     return prefix + timestamp + suffix
 
 

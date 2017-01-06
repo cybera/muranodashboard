@@ -216,7 +216,10 @@ def render_d3_data(request, environment):
                                 ('type', node_type),
                                 ('name', node_data.get('name', node_key))])
                 if parent_node is not None:
-                    node['required_by'].append(parent_node['?']['id'])
+                    try:
+                        node['required_by'].append(parent_node['?']['id'])
+                    except Exception:
+                        pass
                 if len(node_data.get('ipAddresses', [])) > 0:
                     image = unit_image_active
                 else:
