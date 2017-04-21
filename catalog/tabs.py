@@ -16,7 +16,7 @@ import logging
 
 from django.utils.translation import ugettext_lazy as _
 from horizon import tabs
-
+from django.utils.translation import string_concat
 from muranodashboard.dynamic_ui import services
 
 
@@ -63,21 +63,21 @@ class AppRequirementsTab(tabs.Tab):
                     if hasattr(step.base_fields[key], 'requirements'):
                         reqs = step.base_fields[key].requirements
                         # Make the requirement values screen-printable.
-                        self.app.requirements.append('Instance flavor:')
+                        self.app.requirements.append(_('Instance flavor:'))
                         requirements = []
                         for req in reqs:
                             if req == 'min_disk':
-                                requirements.append(
-                                    'Minimum disk size: {0}GB'.format(
-                                        str(reqs[req])))
+                                value ='{0}'.format(str(reqs[req]))
+                                string_result = string_concat(_('Minimum disk size: '), value,  _('GB'))
+                                requirements.append(string_result)
                             elif req == 'min_vcpus':
-                                requirements.append(
-                                    'Minimum vCPUs: {0}'.format(
-                                        str(reqs[req])))
+                                value ='{0}'.format(str(reqs[req]))
+                                string_result = string_concat(_('Minimum vCPUs: '), value)
+                                requirements.append(string_result)
                             elif req == 'min_memory_mb':
-                                requirements.append(
-                                    'Minimum RAM size: {0}MB'.format(
-                                        str(reqs[req])))
+                                value ='{0}'.format(str(reqs[req]))
+                                string_result = string_concat(_('Minimum RAM size: '), value,  _('MB'))
+                                requirements.append(string_result)
                         self.app.requirements.append(requirements)
 
 

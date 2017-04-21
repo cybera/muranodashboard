@@ -14,6 +14,7 @@
 
 import logging
 
+from django.utils.translation import ugettext_lazy as _
 from muranoclient.common import exceptions as exc
 from muranodashboard import api
 from muranodashboard.common import utils
@@ -225,7 +226,7 @@ def services_list(request, environment_id):
             last_operation = strip(str(reports[service_id].text))
             time = reports[service_id].updated.replace('T', ' ')
         else:
-            last_operation = 'Component draft created' \
+            last_operation = _('Component draft created') \
                 if environment.version == 0 else ''
             try:
                 time = service_data['updated'].replace('T', ' ')[:-7]

@@ -14,7 +14,7 @@
 
 import json
 import types
-
+from django.utils.translation import ugettext_lazy as _
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.core.urlresolvers import reverse
 from django.template import loader
@@ -42,6 +42,7 @@ def _get_environment_status_message(entity):
     if status in ('pending', 'ready'):
         in_progress = False
     if status == 'pending':
+        #status_message = _('Waiting for deployment')
         status_message = 'Waiting for deployment'
     elif status == 'ready':
         status_message = 'Deployed'

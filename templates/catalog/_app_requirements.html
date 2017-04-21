@@ -6,7 +6,7 @@
  <div class="app-meta">
      <div class="app-metadata">
         {% if application.requirements %}
-            <ul>{{ application.requirements|unordered_list }}</ul>
+        <ul>{{application.requirements|unordered_list}}</ul>
         {% else %}
             <p>{% trans 'No requirements' %}</p>
         {% endif %}

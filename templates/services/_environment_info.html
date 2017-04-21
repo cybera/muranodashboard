@@ -1,2 +1,3 @@
-<h3>Environment: {{ name }}</h3>
-<p>Status: {{ status }}</p>
+{% load i18n %}
+<h3>{%trans "Environment: " %}{{ name }}</h3>
+<p>{%trans "Status: " %} {%trans status %}</p>

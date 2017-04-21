@@ -7,7 +7,7 @@
      <div class="app-metadata">
     <p>
         {% if application.license %}
-            {{ application.license|linebreaksbr }}
+            {% trans application.license|linebreaksbr %}
         {% else %}
             {% trans 'No license' %}
         {% endif %}

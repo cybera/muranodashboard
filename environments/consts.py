@@ -14,7 +14,7 @@
 
 import os
 import tempfile
-
+from django.utils.translation import ugettext_lazy as _
 from django.conf import settings
 
 
@@ -67,13 +67,13 @@ STATUS_CHOICES = (
 
 STATUS_DISPLAY_CHOICES = (
     (STATUS_ID_READY, 'Ready'),
-    (STATUS_ID_DEPLOYING, 'Deploy in progress'),
-    (STATUS_ID_DELETING, 'Delete in progress'),
-    (STATUS_ID_PENDING, 'Ready to deploy'),
-    (STATUS_ID_NEW, 'Ready to configure'),
-    (STATUS_ID_DELETE_FAILURE, 'Delete FAILURE'),
-    (STATUS_ID_DEPLOY_FAILURE, 'Deploy FAILURE'),
-    ('', 'Ready to configure'),
+    (STATUS_ID_DEPLOYING, _('Deploy in progress')),
+    (STATUS_ID_DELETING, _('Delete in progress')),
+    (STATUS_ID_PENDING, _('Ready to deploy')),
+    (STATUS_ID_NEW, _('Ready to configure')),
+    (STATUS_ID_DELETE_FAILURE, _('Delete FAILURE')),
+    (STATUS_ID_DEPLOY_FAILURE, _('Deploy FAILURE')),
+    ('', _('Ready to configure')),
 )
 
 DEPLOYMENT_STATUS_DISPLAY_CHOICES = (

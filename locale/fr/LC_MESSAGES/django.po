@@ -1,0 +1,1713 @@
+# Gérald LONLAS <g.lonlas@gmail.com>, 2016. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: murano-dashboard 3.0.0.0rc2.dev103\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-17 12:42-0600\n"
+"PO-Revision-Date: 2016-11-08 10:31+0000\n"
+"Last-Translator: Gérald LONLAS <g.lonlas@gmail.com>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Zanata 3.7.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+
+# # mj
+msgid "Application Catalog"
+msgstr "Répertoire d'applications"
+
+#: dashboard.py:32
+msgid "Manage"
+msgstr "Gérer"
+
+#: settings.py:101
+#, fuzzy
+msgid "Select format"
+msgstr "Sélectionner une image "
+
+#: settings.py:102
+msgid "AKI - Amazon Kernel Image"
+msgstr ""
+
+#: settings.py:103
+msgid "AMI - Amazon Machine Image"
+msgstr ""
+
+#: settings.py:104
+msgid "ARI - Amazon Ramdisk Image"
+msgstr ""
+
+#: settings.py:105
+msgid "ISO - Optical Disk Image"
+msgstr ""
+
+#: settings.py:106
+msgid "QCOW2 - QEMU Emulator"
+msgstr ""
+
+#: settings.py:107
+msgid "Raw"
+msgstr ""
+
+#: settings.py:108
+msgid "VDI"
+msgstr ""
+
+#: settings.py:109
+msgid "VHD"
+msgstr ""
+
+#: settings.py:110
+msgid "VMDK"
+msgstr ""
+
+#: settings.py:277
+msgid "All TCP"
+msgstr ""
+
+#: settings.py:283
+msgid "All UDP"
+msgstr ""
+
+#: settings.py:289
+msgid "All ICMP"
+msgstr ""
+
+#: api/__init__.py:56
+msgid "Unable to communicate to murano-api server."
+msgstr "Impossible de communiquer avec le serveur murano-api. "
+
+#: api/__init__.py:60
+msgid "Check Keystone configuration of murano-api server."
+msgstr "Vérifiez la configuration de Keystone du service murano-api."
+
+#: api/__init__.py:64
+msgid "Operation is forbidden by murano-api server."
+msgstr "Opération interdite par le serveur murano-api."
+
+# mj
+#: catalog/panel.py:22 templates/catalog/index.html:6
+#: templates/catalog/index.html.py:11
+msgid "Applications"
+msgstr "Applications"
+
+#: catalog/tabs.py:27
+msgid "Overview"
+msgstr "Vue d'ensemble"
+
+# mj
+#: catalog/tabs.py:42
+msgid "Requirements"
+msgstr "Contraintes"
+
+# mj
+#: catalog/tabs.py:85
+msgid "License"
+msgstr "Licence"
+
+#: catalog/views.py:326
+msgid ""
+"Sorry, you can't add application right now. The environment is deploying."
+msgstr ""
+"Désolé, vous ne pouvez ajouter d'application maintenant. L'environnement est "
+"en cours de déploiement."
+
+#: catalog/views.py:330
+msgid "Adding application to an environment failed."
+msgstr "Échec de l'ajout de l'application à l'environnement."
+
+#: catalog/views.py:337
+#, python-brace-format
+msgid "The '{0}' application successfully added to environment."
+msgstr "Succès de l'ajout de l'application '{0}' à l'environnement."
+
+#: categories/forms.py:38
+#, python-brace-format
+msgid "Category {0} created."
+msgstr "Catégorie {0} créée."
+
+#: categories/panel.py:22 categories/tables.py:37
+msgid "Categories"
+msgstr "Catégories"
+
+#: categories/tables.py:29 templates/categories/add.html:6
+msgid "Add Category"
+msgstr "Ajouter une catégorie"
+
+#: categories/tables.py:36
+msgid "Category"
+msgstr "Ajouter une catégorie"
+
+#: categories/tables.py:49
+msgid "Unable to delete category"
+msgstr "Impossible de supprimer la catégorie"
+
+#: categories/tables.py:51 packages/tables.py:139
+msgid "Unable to remove package."
+msgstr "Impossible de supprimer le paquet."
+
+#: categories/tables.py:56
+msgid "Category Name"
+msgstr "Nom de la catégorie"
+
+#: categories/tables.py:58
+msgid "Package Count"
+msgstr "Nom du package"
+
+#: categories/tables.py:62 templates/categories/index.html:3
+#: templates/categories/index.html.py:6
+msgid "Application Categories"
+msgstr "Catégories d'application."
+
+#: dynamic_ui/fields.py:115
+msgid "Unable to retrieve public images."
+msgstr "Impossible de récupérer les images publiques."
+
+#: dynamic_ui/fields.py:125
+msgid "Invalid murano image metadata"
+msgstr "Métadonnées d'image Murano non valides"
+
+#: dynamic_ui/fields.py:248
+msgid ""
+"The password must contain at least one letter, "
+"one                                  number and one special character"
+msgstr ""
+"Le mot de passe doit contenir au moins une lettre, "
+"un                                  nombre et un caractère spécial"
+
+#: dynamic_ui/fields.py:260
+#, python-brace-format
+msgid "{0}{1} don't match"
+msgstr "{0}{1} ne sont pas identique"
+
+#: dynamic_ui/fields.py:277
+#, fuzzy
+msgid ""
+"Enter a complex password with at least one letter,                 one "
+"number and one special character"
+msgstr ""
+"Entrer un mot de passe complexe comprenant au moins une lettre, "
+"un                                  nombre et un caractère spécial"
+
+#: dynamic_ui/fields.py:284
+#, fuzzy
+msgid ""
+"Enter a complex password with at least one                                "
+"letter, one number and one special character"
+msgstr ""
+"Entrer un mot de passe complexe comprenant au moins une lettre, "
+"un                                  nombre et un caractère spécial"
+
+#: dynamic_ui/fields.py:294
+#, fuzzy
+msgid "Enter a password for the application"
+msgstr "Entrez un mot de passe"
+
+#: dynamic_ui/fields.py:301
+msgid ""
+" with the following requirements:\n"
+"*"
+msgstr ""
+
+#: dynamic_ui/fields.py:321
+msgid "Confirm password"
+msgstr "Confirmer le mot de passe"
+
+#: dynamic_ui/fields.py:322
+msgid "Please confirm your password"
+msgstr "Merci de confirmer votre mot de passe"
+
+#: dynamic_ui/fields.py:323
+msgid "Retype your password"
+msgstr "Entrez à nouveau votre mot de passe"
+
+#: dynamic_ui/fields.py:548
+msgid "No keypair"
+msgstr "Pas de paire de clés"
+
+#: dynamic_ui/fields.py:580
+msgid "Select Image"
+msgstr "Sélectionner une image "
+
+#: dynamic_ui/fields.py:582
+msgid "No images available"
+msgstr "Aucune image disponible"
+
+#: dynamic_ui/fields.py:596
+msgid "Unable to retrieve  availability zones."
+msgstr "Impossible de récupérer les zones de disponibilité."
+
+#: dynamic_ui/fields.py:601
+msgid "No availability zones available"
+msgstr "Pas de zones de disponibilité disponible"
+
+#: dynamic_ui/fields.py:637
+msgid "Specified Cluster Static IP is not in valid IP range"
+msgstr ""
+
+#: dynamic_ui/fields.py:645
+msgid "Unable to retrieve information about fixed IP or IP is not valid."
+msgstr ""
+
+#: dynamic_ui/fields.py:657
+msgid "Specified Cluster Static IP is already in use"
+msgstr ""
+
+#: dynamic_ui/fields.py:670
+msgid "Cannot get allowed subnet for the environment, consult your admin"
+msgstr ""
+
+#: dynamic_ui/fields.py:675
+#, python-brace-format
+msgid "Specified IP address should belong to {0} subnet"
+msgstr ""
+
+#: dynamic_ui/fields.py:692
+#, python-brace-format
+msgid "Select IP from available range: {0} "
+msgstr ""
+
+#: dynamic_ui/fields.py:695
+msgid "Specify valid fixed IP"
+msgstr ""
+
+#: dynamic_ui/fields.py:700
+msgid "Router is not found. You should create one explicitly."
+msgstr ""
+
+#: dynamic_ui/fields.py:747
+msgid "Select Application"
+msgstr "Sélectionner l'application"
+
+#: dynamic_ui/fields.py:787
+msgid "Not in domain"
+msgstr "Pas dans le domaine"
+
+#: environments/api.py:216
+#, fuzzy, python-brace-format
+msgid "Could not get last status for the {0} environment"
+msgstr "Choisir un nom pour cet environnement"
+
+#: environments/panel.py:22 environments/tables.py:68
+#: environments/tables.py:215 templates/environments/_data_table.html:3
+#: templates/environments/index.html:3 templates/environments/index.html:6
+msgid "Environments"
+msgstr "Environnements"
+
+#: environments/tables.py:37
+msgid "Add Component"
+msgstr "Ajout d'un composant"
+
+#: environments/tables.py:54 environments/workflows.py:84
+#: templates/catalog/env_switcher.html:11
+#: templates/environments/_create.html:8 templates/environments/create.html:3
+#: templates/environments/create.html:6
+msgid "Create Environment"
+msgstr "Créer un environnement"
+
+#: environments/tables.py:67 environments/tables.py:124
+#: environments/tables.py:125 environments/workflows.py:68
+msgid "Environment"
+msgstr "Environnement"
+
+#: environments/tables.py:69 environments/tables.py:99
+#, fuzzy
+msgid "Start Deleting"
+msgstr "Suppression en cours"
+
+#: environments/tables.py:83 environments/workflows.py:153
+#: templates/environments/_update.html:8 templates/environments/update.html:3
+#: templates/environments/update.html:6
+msgid "Edit Environment"
+msgstr "Modifier l'environnement"
+
+#tm
+msgid "Delete Environment"
+msgstr "Supprimer l'environnement"
+
+#: environments/tables.py:97 environments/tabs.py:32
+msgid "Component"
+msgstr "Composant"
+
+#: environments/tables.py:98 environments/tables.py:180
+#: environments/tables.py:256 environments/tabs.py:144
+#: templates/services/_data_table.html:4 templates/services/index.html:3
+msgid "Components"
+msgstr "Composants "
+
+#: environments/tables.py:115
+msgid "Sorry, you can't delete service right now"
+msgstr "Désolé, vous ne pouvez pas supprimer le service maintenant"
+
+#: environments/tables.py:122
+msgid "Deploy"
+msgstr "Déployer"
+
+#: environments/tables.py:123
+msgid "Deployed"
+msgstr "Déploiements"
+
+#: environments/tables.py:140 environments/tables.py:169
+msgid "Unable to deploy. Try again later"
+msgstr "Impossible de déployer. Veuillez réessayer plus tard."
+
+#: environments/tables.py:147
+msgid "Deploy This Environment"
+msgstr "Déployer cet environnement"
+
+#: environments/tables.py:167
+msgid "Deploy started"
+msgstr "Déploiement commencé"
+
+#: environments/tables.py:205 environments/tables.py:235
+#: environments/tables.py:298 packages/forms.py:54
+#: templates/categories/_add.html:20
+msgid "Name"
+msgstr "Nom"
+
+#: environments/tables.py:208 environments/tables.py:242
+#: environments/tables.py:286
+msgid "Status"
+msgstr "Statut"
+
+msgid "Status: "
+msgstr "État : "
+
+#: environments/tables.py:239 environments/tables.py:301 images/tables.py:51
+#: packages/tables.py:158 templates/images/_mark.html:28
+msgid "Type"
+msgstr "Type"
+
+#: environments/tables.py:247
+msgid "Last operation"
+msgstr "Dernière opération"
+
+#: environments/tables.py:249
+msgid "Time updated"
+msgstr "Heure mise à jour"
+
+#: environments/tables.py:266
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#: environments/tables.py:280
+msgid "Time Started"
+msgstr "Démarré"
+
+#: environments/tables.py:282
+msgid "Time Finished"
+msgstr "Terminé"
+
+#: environments/tables.py:292
+msgid "Deployments"
+msgstr "Déploiements"
+
+#: environments/tables.py:308
+msgid "Deployed Components"
+msgstr "Composants déployés"
+
+#: environments/tabs.py:74
+msgid "Actions"
+msgstr "Actions"
+
+#: environments/tabs.py:90 environments/tabs.py:104
+msgid "Logs"
+msgstr "Journaux"
+
+#: environments/tabs.py:117
+msgid "Configuration"
+msgstr "Configuration"
+
+#: environments/tabs.py:129
+msgid "Topology"
+msgstr "Topologie"
+
+#: environments/tabs.py:157
+msgid ""
+"Unable to retrieve list of services. This environment is deploying or "
+"already deployed by other user."
+msgstr ""
+
+#: environments/tabs.py:162 environments/tabs.py:192
+#, python-format
+msgid "Environment with id %s doesn't exist anymore"
+msgstr "Environnement avec l'ID %s n'existe plus"
+
+#: environments/tabs.py:174
+msgid "Deployment History"
+msgstr "Historique du déploiement"
+
+#: environments/tabs.py:188
+msgid "Unable to retrieve list of deployments"
+msgstr "Impossible de récupérer la liste des déploiements."
+
+#: environments/views.py:73
+#, fuzzy
+msgid "Sorry, this environment doesn't exist anymore"
+msgstr "Environnement avec l'ID %s n'existe plus"
+
+#: environments/views.py:87
+#, python-brace-format
+msgid "Action '{0}' was scheduled for component '{1}."
+msgstr ""
+
+#: environments/views.py:91
+msgid "There is some action being run in an environment"
+msgstr ""
+
+#: environments/views.py:123
+msgid "Unable to retrieve details for service"
+msgstr "Impossible de récupérer les détails du service"
+
+#: environments/views.py:164
+#, fuzzy
+msgid "Unable to retrieve environment details."
+msgstr "Impossible de récupérer les détails du paquet."
+
+#: environments/views.py:198 environments/views.py:212
+#, python-format
+msgid "Deployment with id %s doesn't exist anymore"
+msgstr "Déploiement avec l'ID %s n'existe plus"
+
+#: environments/workflows.py:29
+msgid ""
+"Environment names must contain only alphanumeric or '_-.' characters and "
+"must start with alpha"
+msgstr ""
+"Le nom de l'environnement ne doit être composé que de caractères "
+"alphanumériques et de traits '_-'. Il doit commencer par un caractère "
+"alphanumérique."
+
+#: environments/workflows.py:34
+msgid "Project"
+msgstr ""
+
+#: environments/workflows.py:35
+msgid "User"
+msgstr ""
+
+#: environments/workflows.py:49
+msgid "Project & User"
+msgstr ""
+
+#: environments/workflows.py:61 environments/workflows.py:113
+#: templates/environments/_fields.html:11
+msgid "Environment Name"
+msgstr "Nom de l'environnement"
+
+#: environments/workflows.py:85 templates/environments/_create.html:15
+#: templates/packages/_import_bundle.html:52
+#: templates/packages/_upload.html:47
+#: templates/services/_wizard_create.html:61
+msgid "Create"
+msgstr "Créer"
+
+#: environments/workflows.py:86
+#, fuzzy, python-format
+msgid "Created environment \"%s\"."
+msgstr "Créer un environnement"
+
+#: environments/workflows.py:87
+#, fuzzy, python-format
+msgid "Unable to create environment \"%s\"."
+msgstr "Échec de la création de l'environnement "
+
+#: environments/workflows.py:133
+#, fuzzy
+msgid "Environment Info"
+msgstr "Environnement"
+
+#: environments/workflows.py:154
+msgid "Save"
+msgstr ""
+
+#: environments/workflows.py:155
+#, fuzzy, python-format
+msgid "Modified environment \"%s\"."
+msgstr "Environnement mis à jour"
+
+#: environments/workflows.py:156
+#, fuzzy, python-format
+msgid "Unable to modify environment \"%s\"."
+msgstr "Impossible de modifier le paquet"
+
+#: images/forms.py:36
+#, python-brace-format
+msgid "Invalid metadata for image: {0}"
+msgstr "Métadonnées non valides pour l'image : {0}"
+
+#: images/forms.py:56 images/tables.py:52 templates/images/_mark.html:24
+msgid "Title"
+msgstr "Titre"
+
+#: images/forms.py:71 images/views.py:40
+msgid "Unable to retrieve list of images"
+msgstr "Impossible de récupérer la liste des images."
+
+#: images/forms.py:89
+msgid "Image successfully marked"
+msgstr "Image marquée avec succès"
+
+#: images/forms.py:92
+msgid "Unable to mark image"
+msgstr "Impossible de marquer l'image"
+
+#: images/forms.py:100
+msgid "Specified title already in use. Please choose another one."
+msgstr "Le titre spécifié est déjà utilisé. Veuillez en choisir un autre."
+
+#: images/panel.py:22
+msgid "Images"
+msgstr "Images"
+
+#: images/tables.py:23 templates/images/_mark.html:8
+#: templates/images/mark.html:3
+msgid "Mark Image"
+msgstr "Marquer l'image"
+
+#: images/tables.py:33 images/tables.py:34
+#, fuzzy
+msgid "Metadata"
+msgstr "Supprimer les Metadata"
+
+#: images/tables.py:41
+msgid "Unable to remove metadata"
+msgstr "Impossible de supprimer les métadonnées."
+
+#: images/tables.py:49 templates/images/_mark.html:20
+msgid "Image"
+msgstr "Image"
+
+#: images/tables.py:56 templates/images/index.html:3
+#: templates/images/index.html.py:6
+msgid "Marked Images"
+msgstr "Images marquées"
+
+#: openstack/common/gettextutils.py:301
+msgid "Message objects do not support addition."
+msgstr ""
+
+#: openstack/common/gettextutils.py:311
+msgid ""
+"Message objects do not support str() because they may contain non-ascii "
+"characters. Please use unicode() or translate() instead."
+msgstr ""
+
+#: openstack/common/log.py:298
+#, python-format
+msgid "Deprecated: %s"
+msgstr ""
+
+#: openstack/common/log.py:406
+#, python-format
+msgid "Error loading logging config %(log_config)s: %(err_msg)s"
+msgstr ""
+
+#: openstack/common/log.py:467
+#, python-format
+msgid "syslog facility must be one of: %s"
+msgstr ""
+
+#: openstack/common/log.py:715
+#, python-format
+msgid "Fatal call to deprecated config: %(msg)s"
+msgstr ""
+
+#: openstack/common/versionutils.py:92
+#, python-format
+msgid ""
+"%(what)s is deprecated as of %(as_of)s in favor of %(in_favor_of)s and may "
+"be removed in %(remove_in)s."
+msgstr ""
+
+#: openstack/common/versionutils.py:96
+#, python-format
+msgid ""
+"%(what)s is deprecated as of %(as_of)s and may be removed in %(remove_in)s. "
+"It will not be superseded."
+msgstr ""
+
+#: openstack/common/versionutils.py:100
+#, python-format
+msgid "%(what)s is deprecated as of %(as_of)s in favor of %(in_favor_of)s."
+msgstr ""
+
+#: openstack/common/versionutils.py:103
+#, python-format
+msgid "%(what)s is deprecated as of %(as_of)s. It will not be superseded."
+msgstr ""
+
+#: packages/forms.py:39
+#, fuzzy
+msgid "Application .zip package"
+msgstr "Package d'application"
+
+#: packages/forms.py:46
+#, fuzzy, python-brace-format
+msgid "It is restricted to upload files larger than {0} MB."
+msgstr "Il est interdit d'envoyer un fichier plus grand que {0} Mo."
+
+#: packages/forms.py:55
+msgid "Application Category"
+msgstr "Catégorie de l'application"
+
+#: packages/forms.py:56
+msgid "Tags"
+msgstr "Etiquettes"
+
+#: packages/forms.py:60 packages/tables.py:106 packages/tables.py:107
+#: packages/tables.py:157
+msgid "Public"
+msgstr "Publique"
+
+#: packages/forms.py:63 packages/tables.py:82 packages/tables.py:83
+#: packages/tables.py:156
+msgid "Active"
+msgstr "Active"
+
+#: packages/forms.py:66
+msgid "Description"
+msgstr "Description"
+
+#: packages/forms.py:112
+msgid "Package modified."
+msgstr "Package modifié."
+
+#: packages/forms.py:115 packages/views.py:80
+msgid "Modifying package failed"
+msgstr "La modification du paquet a échoué."
+
+#: packages/forms.py:118 packages/views.py:82 packages/views.py:112
+msgid "Unable to modify package"
+msgstr "Impossible de modifier le paquet"
+
+#: packages/panel.py:22 packages/tables.py:166 templates/packages/index.html:3
+#: templates/packages/index.html.py:6
+#, fuzzy
+msgid "Package Definitions"
+msgstr "Version du paquet"
+
+#: packages/tables.py:33 templates/packages/_upload.html:11
+#: templates/packages/_upload_package.html:9 templates/packages/upload.html:3
+#: templates/packages/upload.html.py:6
+#: templates/packages/upload_package.html:3
+#: templates/packages/upload_package.html:6
+#, fuzzy
+msgid "Upload Package"
+msgstr "Télécharger le paquet"
+
+#: packages/tables.py:48
+msgid "Download Package"
+msgstr "Télécharger le paquet"
+
+#: packages/tables.py:73
+msgid "Something went wrong during package downloading"
+msgstr "Quelque chose s'est mal passé pendant le téléchargement du paquet"
+
+#: packages/tables.py:76
+msgid "Unable to download package."
+msgstr "Impossible de télécharger le paquet."
+
+#: packages/tables.py:84 packages/tables.py:108
+#, fuzzy
+msgid "Toggle"
+msgstr "Activer"
+
+#: packages/tables.py:85 packages/tables.py:109
+#, fuzzy
+msgid "Toggled"
+msgstr "Activer"
+
+#: packages/tables.py:92
+msgid "Toggling package state in package repository failed"
+msgstr ""
+
+#: packages/tables.py:95
+#, fuzzy
+msgid "Unable to toggle package state."
+msgstr "Impossible de supprimer le paquet."
+
+#: packages/tables.py:101
+#, fuzzy, python-brace-format
+msgid "Package '{0}' successfully toggled"
+msgstr "Les paramètres du paquet a été mis à jour avec succès"
+
+#: packages/tables.py:116
+msgid "Toggling package public state in package repository failed"
+msgstr ""
+
+#: packages/tables.py:119
+#, fuzzy
+msgid "Unable to toggle package public state."
+msgstr "Impossible de récupérer les images publiques."
+
+#: packages/tables.py:125
+#, python-brace-format
+msgid "Public state for package '{0}' is successfully toggled"
+msgstr ""
+
+#: packages/tables.py:131
+#, fuzzy
+msgid "Package"
+msgstr "Paquets"
+
+#: packages/tables.py:137
+msgid "Unable to delete package in murano-api server"
+msgstr "Impossible de supprimer le paquet dans le serveur murano-api"
+
+#: packages/tables.py:145 templates/packages/_modify_package.html:8
+#: templates/packages/modify_package.html:3
+#: templates/packages/modify_package.html:6
+msgid "Modify Package"
+msgstr "Modifier le paquet"
+
+#: packages/tables.py:155
+msgid "Package Name"
+msgstr "Nom du paquet"
+
+#: packages/tables.py:159
+msgid "Author"
+msgstr "Auteur"
+
+#: packages/views.py:85
+msgid "Package parameters successfully updated."
+msgstr "Les paramètres du paquet a été mis à jour avec succès"
+
+#: packages/views.py:94
+#, python-brace-format
+msgid "Package {0} uploaded"
+msgstr "Paquet {0} envoyé"
+
+#: packages/views.py:109
+#, fuzzy
+msgid "Uploading package failed"
+msgstr "L'envoi du paquet a échoué. {0}"
+
+#: stats/panel.py:22
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: stats/tabs.py:22
+msgid "Murano API Servers"
+msgstr ""
+
+#: stats/tabs.py:33
+msgid "Murano Instance Statistics"
+msgstr ""
+
+#: templates/catalog/_app_license.html:12
+msgid "No license"
+msgstr "Aucune de licence"
+
+#: templates/catalog/_app_requirements.html:11
+msgid "No requirements"
+msgstr "Non requis"
+
+#: templates/catalog/_details_page_header.html:7
+#, fuzzy, python-format
+msgid "Application details: %(name)s"
+msgstr "Détails de l'application"
+
+# mj
+#: templates/catalog/_details_page_header.html:12
+#, fuzzy
+msgid "applications"
+msgstr "Applications"
+
+#: templates/catalog/add_app.html:5
+msgid "Add to Env"
+msgstr "Ajouter à l'Env"
+
+#: templates/catalog/add_app.html:7
+msgid "Create Env"
+msgstr "Créer un Env"
+
+#: templates/catalog/app_details.html:5
+msgid "Application Details"
+msgstr "Détails de l'application"
+
+#: templates/catalog/env_switcher.html:4
+msgid "Environment: "
+msgstr "Environnement: "
+
+#: templates/catalog/env_switcher.html:11
+#, fuzzy
+msgid "Click to create an environment"
+msgstr "Cliquer pour créer un nouvel environnement"
+
+#: templates/catalog/index.html:88
+#, fuzzy
+msgid "There are no applications matching your search criteria."
+msgstr "Il n'y a aucune application que correspond avec vos critères"
+
+#: templates/catalog/quick_deploy.html:4
+msgid "Quick Deploy"
+msgstr "Déploiement rapide"
+
+#: templates/categories/_add.html:8
+msgid "Add Application Category"
+msgstr "Ajouter une catégorie d'application."
+
+#: templates/categories/_add.html:17 templates/environments/_fields.html:9
+#: templates/images/_mark.html:17 templates/packages/_import_bundle.html:32
+#: templates/packages/_import_bundle.html:37
+#: templates/packages/_package_params.html:3
+#: templates/packages/_upload.html:34
+#: templates/packages/_upload_package.html:18
+#, fuzzy
+msgid "Description:"
+msgstr "Description"
+
+#: templates/categories/_add.html:18
+#, fuzzy
+msgid "Add new category to the application catalog. "
+msgstr "Ajouter une nouvelle catégorie au catalogue de l'application"
+
+#: templates/categories/_add.html:21
+msgid "Provide desired name for a new category"
+msgstr ""
+
+#: templates/categories/_add.html:28
+msgid "Add"
+msgstr "Ajouter"
+
+#: templates/categories/_add.html:29 templates/environments/_create.html:16
+#: templates/environments/_update.html:16 templates/images/_mark.html:36
+#: templates/packages/_import_bundle.html:54
+#: templates/packages/_modify_package.html:24
+#: templates/packages/_upload.html:51
+#: templates/packages/_upload_package.html:26
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/categories/add.html:3
+#, fuzzy
+msgid "Add category"
+msgstr "Ajouter une catégorie"
+
+#: templates/deployments/_logs.html:3
+msgid "Deployment Logs"
+msgstr "Journaux de déploiement"
+
+#: templates/deployments/_page_header.html:6
+#, fuzzy
+msgid "Deployment logs"
+msgstr "Journaux de déploiement"
+
+#: templates/deployments/_page_header.html:11
+#: templates/deployments/_reports_page_header.html:11
+#: templates/services/_detail_page_header.html:10
+#: templates/services/_page_header.html:12
+#, fuzzy
+msgid "environments"
+msgstr "Environnements"
+
+#: templates/deployments/_reports_page_header.html:6
+#, fuzzy
+msgid "Deployment information"
+msgstr "Historique du déploiement"
+
+#: templates/deployments/_reports_page_header.html:14
+#, fuzzy, python-format
+msgid " environment %(environment_name)s"
+msgstr "Environnement des déploiements "
+
+#: templates/deployments/index.html:3
+msgid "Environment Deployments"
+msgstr "Environnement des déploiements "
+
+#: templates/deployments/reports.html:9
+msgid "Deployment Details"
+msgstr "Détail des déploiements"
+
+#: templates/environments/_fields.html:12
+#, fuzzy
+msgid "Create a name for the environment"
+msgstr "Choisir un nom pour cet environnement"
+
+#: templates/environments/_fields.html:15
+msgid ""
+" An environment is a collection of instances that \n"
+"        are meant to operate under similar conditions."
+msgstr ""
+
+#: templates/environments/_help.html:2
+msgid "Environment defines the run time context for the  application including all the application images, what container services they run on, and the associated automatically generated network configuration."
+msgstr "L'environnement détermine l'instant d'exécution de l'application, y compris toutes les images de l'application, les services qui en englobent l'exécution et la configuration automatique connexe du réseau."
+
+#: templates/environments/_update.html:15
+msgid "Edit"
+msgstr ""
+
+#: templates/images/_mark.html:18
+msgid ""
+"Mark image with specific Murano metadata. Valid image metadata will be added "
+"to the selected image so image can be picked during service creation."
+msgstr ""
+
+#: templates/images/_mark.html:21
+#, fuzzy
+msgid "Select one of the images registered in the Glance"
+msgstr "Sélectionner une image enregistrée dans les services d'image Glance."
+
+#: templates/images/_mark.html:25
+msgid ""
+"Image description which will help you to recognize the image during service "
+"creation"
+msgstr ""
+
+#: templates/images/_mark.html:29
+msgid "Pick image type from types supported by Murano"
+msgstr ""
+
+#: templates/images/_mark.html:35
+msgid "Mark"
+msgstr ""
+
+#: templates/images/mark.html:6
+#, fuzzy
+msgid "Mark image with Metadata"
+msgstr "Métadonnées d'image Murano non valides"
+
+#: templates/packages/_import_bundle.html:10
+#: templates/packages/import_bundle.html:3
+#: templates/packages/import_bundle.html:6
+msgid "Import Bundle"
+msgstr "Importer un Bundle"
+
+#: templates/packages/_import_bundle.html:33
+msgid "<strong>Bundle Name: </strong>Bundle's full name."
+msgstr ""
+
+#: templates/packages/_import_bundle.html:34
+#, python-format
+msgid ""
+"The bundle is going to be installed from <a href=\"%(murano_repo_url)s\" "
+"target=\"_blank\">%(murano_repo_url)s</a> repository."
+msgstr ""
+
+#: templates/packages/_import_bundle.html:38
+msgid "<strong>Bundle URL:</strong> HTTP/HTTPS URL of the bundle file."
+msgstr ""
+
+#: templates/packages/_import_bundle.html:41
+msgid ""
+"<strong><i>Note: </i></strong>You'll have to configure each package "
+"installed from this bundle separately.\n"
+"            <br>If packages depend upon other packages and/or require "
+"specific glance images, those are going to be installed with them from "
+"murano repository.\n"
+"            "
+msgstr ""
+
+#: templates/packages/_import_bundle.html:50
+#: templates/packages/_upload.html:49
+#: templates/services/_wizard_create.html:59
+msgid "Next"
+msgstr "Suivant"
+
+#: templates/packages/_modify_package.html:23
+msgid "Submit"
+msgstr ""
+
+#: templates/packages/_package_params.html:4
+msgid "<strong>Name</strong> is a human-readable name of a package."
+msgstr ""
+
+#: templates/packages/_package_params.html:5
+msgid ""
+"<strong>Categories</strong> are a predefined set of values used to filter "
+"the packages."
+msgstr ""
+
+#: templates/packages/_package_params.html:6
+msgid ""
+"<strong>Tags</strong> are an arbitrary comma-separated values also used to "
+"filter the packages."
+msgstr ""
+
+#: templates/packages/_package_params.html:7
+msgid ""
+"<strong>Public</strong> defines whether or not should be package shown to "
+"the other tenants."
+msgstr ""
+
+#: templates/packages/_package_params.html:8
+msgid "<strong>Active</strong> is used for temporarily disabling a package."
+msgstr ""
+
+#: templates/packages/_package_params.html:9
+msgid ""
+"<strong>Description</strong> consists of several sentences about the "
+"package's purpose."
+msgstr ""
+
+#: templates/packages/_upload.html:35
+#, fuzzy
+msgid "Choose a zip archive to upload."
+msgstr "Choisir une archive Zip pour l'envoi dans le catalogue."
+
+#: templates/packages/_upload.html:36
+msgid ""
+"Murano package should contain:<br>\n"
+"                * Manifest file;<br>\n"
+"                * UI definition folder;<br>\n"
+"                * Classes definition folder;<br>\n"
+"                * Execution plans folder."
+msgstr ""
+
+#: templates/packages/_upload_package.html:19
+#, fuzzy
+msgid "Choose package archive to upload."
+msgstr "Choisir une archive Zip pour l'envoi dans le catalogue."
+
+#: templates/packages/_upload_package.html:20
+msgid "Files could be nested and should not be exist in the server."
+msgstr ""
+
+#: templates/packages/_upload_package.html:25
+msgid "Upload"
+msgstr ""
+
+#: templates/services/_actions.html:3
+#, fuzzy
+msgid "Component Actions"
+msgstr "Liste des composants"
+
+#: templates/services/_actions.html:15
+msgid "Component does not provide any actions."
+msgstr ""
+
+#: templates/services/_data_table.html:20
+#, fuzzy
+msgid ""
+"Application&nbsp;\n"
+"                                Components"
+msgstr "Composants&nbsp;d'applications"
+
+#: templates/services/_data_table.html:24
+msgid "App category"
+msgstr "Catégorie de l'app"
+
+#: templates/services/_data_table.html:56
+#, python-format
+msgid ""
+" There are no applications in the catalog.\n"
+"                        You can import apps from<a href=\"%(repo_url)s\"\n"
+"                                                   target=\"_blank\"> "
+"%(repo_url)s</a>\n"
+"                        .\n"
+"                        <br><br>\n"
+"                        Go to\n"
+"                        <b><a href=%(pkg_def_url)s>Package\n"
+"                            Definitions</a></b>,\n"
+"                        click 'Import Package' and select <i>Repository</i> "
+"as\n"
+"                        a <i>Package Source</i>.  "
+msgstr ""
+
+#: templates/services/_data_table.html:101
+msgid "Drop Components here"
+msgstr "Déposer les composants ici"
+
+#: templates/services/_detail_page_header.html:6
+#, fuzzy, python-format
+msgid "Component Details: %(service_name)s "
+msgstr "Détails du composant"
+
+#: templates/services/_detail_page_header.html:13
+#, fuzzy, python-format
+msgid "environment %(environment_name)s"
+msgstr "Environnement des déploiements "
+
+#: templates/services/_detail_page_header.html:15
+#, python-format
+msgid " > component %(service_name)s"
+msgstr ""
+
+#: templates/services/_logs.html:3
+msgid "Component Logs"
+msgstr "Journaux du composant"
+
+#: templates/services/_overview.html:4 templates/services/details.html:3
+msgid "Component Details"
+msgstr "Détails du composant"
+
+#: templates/services/_overview.html:6
+#, fuzzy
+msgid "Info "
+msgstr "Info"
+
+#: templates/services/_overview.html:24 templates/services/_overview.html:53
+#, python-format
+msgid " %(key)s "
+msgstr ""
+
+#: templates/services/_overview.html:25 templates/services/_overview.html:54
+#, python-format
+msgid " %(value)s  "
+msgstr ""
+
+#: templates/services/_overview.html:34
+#, fuzzy
+msgid "Component unit"
+msgstr "Liste des composants"
+
+#: templates/services/_page_header.html:7
+#, fuzzy, python-format
+msgid "Environment: %(environment_name)s"
+msgstr "Environnement des déploiements "
+
+#: templates/services/_wizard_create.html:9
+#, fuzzy
+msgid "Add Application to "
+msgstr "Ajouter une application"
+
+#: templates/services/_wizard_create.html:26
+#, python-format
+msgid " %(extended_description)s "
+msgstr ""
+
+#: templates/services/_wizard_create.html:29
+#, python-format
+msgid " %(service_name)s Application"
+msgstr ""
+
+#: templates/services/_wizard_create.html:33
+#, python-format
+msgid "%(title)s:"
+msgstr ""
+
+#: templates/services/_wizard_create.html:35
+#, python-format
+msgid "%(desc)s"
+msgstr ""
+
+#: templates/services/_wizard_create.html:66
+msgid "Back"
+msgstr "Retour"
+
+#: templates/stats/_billing.html:13
+msgid "No recent activity to report at this time."
+msgstr "Aucune activité récente à reporter pour le moment"
+
+#: templates/stats/index.html:3
+#, fuzzy
+msgid "Murano Statistics"
+msgstr "Statistiques"
+
+#: templates/stats/index.html:6
+msgid "Murano Server Stats"
+msgstr ""
+
+msgid "-"
+msgstr "-"
+
+msgid "80 characters max."
+msgstr "80 caractères max."
+
+msgid "A local zip file to upload"
+msgstr "Fichier Zip local à envoyer"
+
+msgid "Abandon Environment"
+msgid_plural "Abandon Environments"
+msgstr[0] "Abandonner l'environnement"
+msgstr[1] "Abandonner les environnements"
+
+msgid "Abandoned Environment"
+msgid_plural "Abandoned Environments"
+msgstr[0] "Environnement abandonné"
+msgstr[1] "Environnements abandonnés"
+
+msgid "Add Murano Metadata"
+msgstr "Ajouter des métadonnées Murano"
+
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+msgid "All"
+msgstr "Tout"
+
+msgid "An external http/https URL to load the bundle from."
+msgstr "Une URL externe HTTP/HTTPS à partir de laquelle charger le bundle."
+
+msgid "An external http/https URL to load the package from."
+msgstr "Une URL externe HTTP/HTTPS à partir de laquelle charger le paquet."
+
+msgid "App Catalog"
+msgstr "Catalogue d'application"
+
+msgid "App Category:"
+msgstr "Catégorie de l'app :"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Browse"
+msgstr "Parcourir"
+
+msgid "Browse Local"
+msgstr "Parcourir le dossier local"
+
+msgid "Bundle creation failed.Reason: {0}"
+msgstr "La création du bundle a échoué. Raison : {0}"
+
+msgid "Completed with warnings"
+msgstr "Terminé avec avertissements"
+
+msgid "Configure Application"
+msgstr "Configurer l'application"
+
+msgid "Couldn't update package {0} parameters. Error: {1}"
+msgstr ""
+"Impossible de mettre à jour les paramètres du paquet {0}. Erreur : {1}"
+
+msgid "Create New"
+msgstr "Créer un nouveau"
+
+msgid "Create a title for an image."
+msgstr "Créer un titre pour une image"
+
+msgid "Created"
+msgstr "Créé"
+
+msgid "Custom Type"
+msgstr "Type personnalisée"
+
+msgid "Delete Category"
+msgid_plural "Delete Categories"
+msgstr[0] "Supprimer la catégorie."
+msgstr[1] "Supprimer les catégories."
+
+msgid "Delete Component"
+msgid_plural "Delete Components"
+msgstr[0] "Supprimer un composant"
+msgstr[1] "Supprimer les composants"
+
+msgid "Delete Package"
+msgid_plural "Delete Packages"
+msgstr[0] "Supprimer le package"
+msgstr[1] "Supprimer les packages"
+
+msgid "Delete failure"
+msgstr "Échec de la suppression"
+
+msgid "Deleted Category"
+msgid_plural "Deleted Categories"
+msgstr[0] "Catégorie supprimée."
+msgstr[1] "Catégories supprimées."
+
+msgid "Deleted Metadata"
+msgid_plural "Deleted Metadata"
+msgstr[0] "Metadata en cours de suppression"
+msgstr[1] "Metadata en cours de suppression"
+
+msgid "Deleted Package"
+msgid_plural "Deleted Packages"
+msgstr[0] "Supprimer le package"
+msgstr[1] "Supprimer les packages"
+
+msgid "Deploy Environment"
+msgstr "Déployer l'environnement"
+
+msgid "Deploy failur"
+msgstr "Échec du déploiement"
+
+msgid "Details"
+msgstr "Précisions"
+
+msgid "Enabled"
+msgstr "Activé"
+
+msgid "FQN"
+msgstr "FQN"
+
+msgid "Failed"
+msgstr "Échec"
+
+msgid "File"
+msgstr "Fichier"
+
+msgid "Filter"
+msgstr "Filtrer"
+
+msgid "Find in a selected category"
+msgstr "Trouvé dans la catégorie sélectionnée"
+
+msgid "Foo"
+msgstr "Foo"
+
+msgid ""
+"Go to <b> <a href=%(pkg_def_url)s>Packages</a> </b>, click 'Import "
+"Package' and select <i>Repository</i> as <i>Package Source</i>."
+msgstr ""
+"Aller à <b> <a href=%(pkg_def_url)s>Paquets</a> </b>, cliquez sur "
+"'Importer un paquet' et sélectionnez <i>Dépôt</i> en tant que <i>source "
+"de paquet</i>."
+
+msgid "Heat Orchestration stack name"
+msgstr "Nom de la pile d'orchestration Heat"
+
+msgid "Heat Orchestration stack%(forloop.counter)s name"
+msgstr "Nom de la pile d'orchestration Heat %(forloop.counter)s"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image Title"
+msgstr "Titre de l'image"
+
+msgid "Image Type"
+msgstr "Type d'image"
+
+msgid "Import Package"
+msgstr "Importer un paquet"
+
+msgid "Importing package {0} failed. Reason: {1}"
+msgstr "L'import du paquet {0} a échoué. Raison : {1}"
+
+msgid "Instance name"
+msgstr "Nom de l'instance"
+
+msgid "KeyWord"
+msgstr "Mot clé"
+
+msgid "Latest Deployment Log"
+msgstr "Dernier journal de déploiement"
+
+msgid "Manage Components"
+msgstr "Gérer les composants"
+
+msgctxt "Package requirements"
+msgid "Manifest file"
+msgstr "Fichier manifeste"
+
+msgid "NO ENVIRONMENTS"
+msgstr "PAS D'ENVIRONNEMENT"
+
+msgid "Network of '%s'"
+msgstr "Réseau de  '%s'"
+
+msgid "Next Page"
+msgstr "Page suivante"
+
+msgid "No categories available"
+msgstr "Pas de catégorie disponible"
+
+msgid "No components"
+msgstr "Aucun composant"
+
+msgid "None"
+msgstr "Aucun"
+
+msgid "Note"
+msgstr "Note"
+
+msgid ""
+"OpenStack Networking (Neutron) is not available in current environment. "
+"Custom Network Settings cannot be applied"
+msgstr ""
+"Le Réseau OpenStack (Neutron) n'est pas disponible dans l'environnement "
+"courant. Les paramètres réseau personnalisés ne peuvent pas être appliqués"
+
+msgid "Optional"
+msgstr "Optionnel"
+
+msgid "Package Source"
+msgstr "Source du paquet"
+
+msgid "Package Tags"
+msgstr "Etiquettes du paquet"
+
+msgid "Package URL"
+msgstr "URL du paquet"
+
+msgid "Package creation failed.Reason: {0}"
+msgstr "La création du paquet a échoué. Raison : {0}"
+
+msgid "Package foo uploaded"
+msgstr "Paquet foo envoyé"
+
+msgid "Package version"
+msgstr "Version du paquet"
+
+msgid "Package with id {0} is not found"
+msgstr "Le paquet avec l'id {0} n'a pas été trouvé"
+
+msgid "Package {0} already registered."
+msgstr "Paquet{0} déjà enregistré."
+
+msgid "Package {0} upload failed. {1}"
+msgstr "L'envoi du paquet {0} a échoué. {1}"
+
+msgid "Packages should contain:"
+msgstr "Les paquets doivent contenir :"
+
+msgid "Previous Page"
+msgstr "Page précédente"
+
+msgid "Ready"
+msgstr "Prêt"
+
+msgid "Ready to configure"
+msgstr "Prêt à configurer"
+
+msgid "Ready to deploy"
+msgstr "Prêt à déployer"
+
+msgid "Recent Activity"
+msgstr "Activité récente"
+
+msgid "Repository"
+msgstr "Dépot"
+
+msgid "Requested object is not found on murano server."
+msgstr "L'objet demandé n'a pas été trouvé sur le serveur Murano."
+
+msgid "Requested operation conflicts with an existing object."
+msgstr "L'opération demandée rentre en conflit avec un objet existant."
+
+msgid "Running"
+msgstr "En fonctionnement"
+
+msgid "Running with errors"
+msgstr "Exécution avec erreurs"
+
+msgid "Running with warnings"
+msgstr "Exécution avec avertissements"
+
+msgid "Select one or more categories for a package."
+msgstr "Sélectionner une ou plusieurs catégories pour le paquet"
+
+msgid "Started Deleting Component"
+msgid_plural "Started Deleting Components"
+msgstr[0] "La suppression du composant a débutée"
+msgstr[1] "La suppression des composants a débutée"
+
+msgid "Started Deleting Environment"
+msgid_plural "Started Deleting Environments"
+msgstr[0] "La suppression de l'environnement a débutée"
+msgstr[1] "La suppression des environnements a débutée"
+
+msgid "Started deploying Environment"
+msgid_plural "Started deploying Environments"
+msgstr[0] "Le déploiement de l'environnement a débutée"
+msgstr[1] "Le déploiement des environnements a débutée"
+
+msgid "Step {0}"
+msgstr "Étape {0}"
+
+msgid "Successful"
+msgstr "Succès"
+
+msgid "Tenant Name"
+msgstr "Nom du titulaire"
+
+msgid "The environment name field cannot be empty."
+msgstr "Le champ du nom de l'environnement ne peut pas être vide."
+
+msgid "The request data is not acceptable by the server"
+msgstr "Les données de la requête ne sont pas acceptées par le serveur"
+
+msgid "There are no applications in the catalog. You can import apps from"
+msgstr ""
+"Il n'y a aucun application dans le catalogue. Vous pouvez importer votre "
+"app depuis"
+
+msgid "There was an error communicating with server"
+msgstr "Erreur lors de la communication avec le serveur."
+
+msgid "There was an error initialising this field."
+msgstr "Une erreur s'est produite à l'initialisation de ce champ."
+
+msgid "Toggle Public"
+msgid_plural "Toggle Public"
+msgstr[0] "Publier"
+msgstr[1] "Publier"
+
+msgid "Toggled Public"
+msgid_plural "Toggled Public"
+msgstr[0] "Publier"
+msgstr[1] "Publier"
+
+msgctxt "Package requirements"
+msgid "UI definition folder"
+msgstr "Dossier de définition de l'UI"
+
+msgid "UNKNOWN"
+msgstr "INCONNU"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "Unable to abandon an environment {0} due to: {1}"
+msgstr "Impossible d'abandonner un environnement {0} à cause de : {1}"
+
+msgid "Unable to communicate to glare-api server."
+msgstr "Impossible de communiquer avec le serveur glare-api. "
+
+msgid "Unable to create environment {0} due to: {1}"
+msgstr "Impossible de créer l'environnement {0} à cause de : {1}"
+
+msgid "Unable to delete environment {0} due to: {1}"
+msgstr "Impossible de supprimer l'environnement {0} à cause de : {1}"
+
+msgid "Unable to get list of categories"
+msgstr "Impossible d'obtenir la liste des catégories"
+
+msgid "Unable to retrieve project list."
+msgstr "Impossible de récupérer la liste des projets."
+
+msgid "Unavailable"
+msgstr "Indisponible"
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Update Environment"
+msgstr "Mettre à jour l'environnement"
+
+msgid "Update Image"
+msgstr "Mettre à jour une image"
+
+msgid "Update Metadata"
+msgstr "Mettre à jour les métadonnées"
+
+msgid "Update This Environment"
+msgstr "Mettre à jour cet environnement"
+
+msgid "Updated"
+msgstr "Mis à jour"
+
+msgid "Validation Error occurred"
+msgstr "Une erreur de validation s'est produite"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "You are not allowed to delete this package"
+msgstr "Vous n'êtes pas autorisé à supprimer ce paquet"
+
+msgid "You are not allowed to perform this operation"
+msgstr "Vous n'êtes pas autorisé à executer cette opération"
+
+msgid "Stacks"
+msgstr "Piles"
+
+msgid "Assign Floating IP"
+msgstr "Attribuer une IP flottante"
+
+msgid "Select to true to assign floating IP automatically"
+msgstr "Sélectionner « true » pour affecter automatiquement une adresse."
+
+msgid "Application Name"
+msgstr "Nom de l'application"
+
+msgid "Volume size"
+msgstr "Taille du volume"
+
+# #tm
+
+msgid "Apache License, Version 2.0"
+msgstr "Licence Apache, version 2.0"
+
+msgid "Enter a desired name for the application. Just A-Z, a-z, 0-9, dash and underline are allowed"
+msgstr "saisir le nom désiré pour l'application. Seuls les caractères A à Z, a à z, 0 à 9, le trait d'union et le tiret de soulignement sont autorisés."
+
+msgid "A volume will be created to host the Apache websites."
+msgstr "Un volume sera créé pour accueillir les sites web Apache."
+
+msgid "Size of the volume (in GB) to be created for Apache."
+msgstr "Taille (en Go) du volume qui accueillera les sites Apache."
+
+msgid "Instance Naming Pattern"
+msgstr "Identification des instances"
+
+msgid "Specify the instance parameters."
+msgstr "Spécifier les paramètres de l'instance."
+
+msgid "Instance flavor"
+msgstr "Saveur de l'instance"
+
+msgid "Select the instance flavor."
+msgstr "sélectionner la saveur."
+
+msgid "Instance image"
+msgstr "Image de l'instance"
+
+msgid "Select an image. It must be Ubuntu-based."
+msgstr "choisir une image (de type Ubuntu)."
+
+msgid "Select the Key Pair to access the instances. You can login to instances using this Key Pair after the deployment of application."
+msgstr "choisir la biclé qui donnera accès aux instances. La biclé vous permettra d'accéder aux instances après déploiement de l'application."
+
+msgid "Specify a string that will be used in instance hostname. Only A-Z, a-z, 0-9, dash, and underline are allowed."
+msgstr "choisir la chaîne qui servira à nommer l'instance. N'utiliser que A à Z, a à z, 0 à 9, le trait d'union et le trait de soulignement."
+
+msgid "Only letters, numbers, underscores and hyphens are allowed."
+msgstr "Seuls les chiffres, les lettres, le trait d'union et le trait de soulignement sont acceptés."
+
+msgid "Add more applications to the environment"
+msgstr "Ajouter d'autres applications"
+
+msgid "If checked, you will be returned to the Application Catalog page. If not - to the Environment page, where you can deploy the application."
+msgstr "Cocher cette case vous ramènera à la page du répertoire. Sinon, vous serez ramené à celle de l'environnement, où vous pourrez déployer l'application."
+
+msgid "Waiting for deployment"
+msgstr "en attente de déploiement"
+
+msgid "Component draft created"
+msgstr "Ébauche du composant créée"
+
+msgid "Deploy in progress"
+msgstr "Déploiement en cours"
+
+msgid "Instance flavor:"
+msgstr "Saveur de l'instance :"
+
+msgid "Minimum disk size: "
+msgstr "Espace disque minimum : "
+
+msgid "GB"
+msgstr "Go"
+
+msgid "Minimum RAM size: "
+msgstr "Mémoire vive minimale : "
+
+msgid "Minimum vCPUs: "
+msgstr "Nombre minimum de vCPU : "
+
+msgid "MB"
+msgstr "Mo"
+
+msgid "Provided By: "
+msgstr "Fourni par : "
+
+msgid "Tags: "
+msgstr "Balises : "
+
+msgid "Database, PostgreSQL, SQL, RDBMS"
+msgstr "base de données, PostgreSQL, SGBDR"
+
+msgid "PostgreSQL is a relational database management system (RDBMS). This application stores PostgreSQL databases on a volume and optionally backs them up to the Object Storage Service. It supports Ubuntu 14.04 and CentOS 7 images."
+msgstr "PostgreSQL est un système de gestion de base de données relationnelle (SGBDR). L'application stocke les bases de données PostgreSQL sur un volume et, facultativement, les sauvegarde dans le répertoire d'objets. Accepte les images Ubuntu 14.04 et CentOS 7."
+
+msgid "WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL.This application will store the MySQL databases on a volume."
+msgstr "WordPress est un outil gratuit de blogage de source libre et un système de gestion du contenu (SGC) reposant sur PHP et MySQL. L'application stocke les bases de données MySQL sur un volume."
+
+msgid "CMS"
+msgstr "SGC"
+
+msgid "Database, MySQL, SQL, RDBMS"
+msgstr "base de données, MySQL, SQL, SGBDR"
+
+msgid "HTTP, Server, WebServer, HTML, Apache"
+msgstr "HTTP, serveur, serveur web, HTML, Apache"
+
+msgid "The Apache HTTP Server, colloquially called Apache, is a Web server application notable for playing a key role in the initial growth of the World Wide Web. Originally based on the NCSA HTTPd server, development of Apache began in early 1995 after work on the NCSA code stalled. Apache quickly overtook NCSA HTTPd as the dominant HTTP server, and has remained the most popular HTTP server in use since April 1996. This application stores Apache content on a volume.Supported image types: Ubuntu 14.04, CentOS 7."
+msgstr "Le serveur Apache HTTP (Apache) est une application de type « serveur web » connue pour avoir joué un rôle primordial dans l'expansion de la toile mondiale. S'inspirant au départ du serveur HTTPd de la NCSA, son développement a commencé tôt en 1995, après que les travaux sur le code de la NCSA ont été interrompus. Apache a vite supplanté le serveur HTTPd pour devenir le principal serveur HTTP et a gardé sa popularité jusqu'en avril 1996. Cette application stocke le contenu d'Apache dans un volume. Types d'image acceptés : Ubuntu 14.04, CentOS 7."

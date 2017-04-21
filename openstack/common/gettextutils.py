@@ -55,7 +55,7 @@ class TranslatorFactory(object):
         """
         self.domain = domain
         if localedir is None:
-            localedir = os.environ.get(domain.upper() + '_LOCALEDIR')
+            localedir = os.environ.get('openstack_dashboard'.upper() + '_LOCALEDIR')
         self.localedir = localedir
 
     def _make_translation_func(self, domain=None):

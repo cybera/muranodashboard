@@ -64,6 +64,7 @@ class CreateEnvironment(tables.LinkAction):
 
 
 class DeleteEnvironment(tables.DeleteAction):
+   # verbose_name = _('Delete Environment')
     data_type_singular = _('Environment')
     data_type_plural = _('Environments')
     action_past = _('Start Deleting')
