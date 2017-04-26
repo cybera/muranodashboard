@@ -14,6 +14,84 @@ msgstr ""
 "X-Generator: Zanata 3.7.3\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
 
+msgid "Database Configuration"
+msgstr "Configuration de la base de données"
+
+msgid "Specify the MySQL database properties"
+msgstr "spécifier les propriétés de la base de données MySQL"
+
+msgid "IP address to restrict remote access to the database"
+msgstr "Adresse IP restreignant l'accès à distance à la base de données"
+
+msgid "If IP address is specified  - remote access will be enabled and root user will got all privileges connecting from  that IP. Otherwise remote access will be  disabled by deafult, to enable it - please proceed with manual configuration."
+msgstr " L'adresse IP active l'accès à distance et confère à l'utilisateur tous les privilèges associés à la connexion. Ne pas indiquer d'adresse IP désactive l'accès à distance par défaut. Dans un tel cas, la configuration devra se faire manuellement."
+
+msgid "WordPress MySQL Password"
+msgstr "Mot de passe WordPress MySQL"
+
+msgid "Please provide the root MySQL password."
+msgstr "donner le mot de passe racine MySQL."
+
+msgid "MySQL Root Password"
+msgstr "Mot de passe racine MySQL"
+
+msgid "A volume will be created to host the MySQL databases."
+msgstr "Un volume sera créé pour les bases de données MySQL."
+
+msgid "Check to enable backups"
+msgstr "Cocher pour autoriser les sauvegardes"
+
+msgid "Size of the volume (in GB) to be created for MySQL."
+msgstr "Taille du volume (en Go) à créer pour MySQL."
+
+msgid "OpenStack password"
+msgstr "Mot de passe OpenStack"
+
+msgid "Set to true to enable backups to the object storage system (every 10 days and every 3 months)."
+msgstr "la valeur « vrai » permet la sauvegarde dans le stockage d'objets (tous les 10 jours et tous les 3 mois)."
+
+msgid "Please provide your OpenStack password to access the object storage service."
+msgstr "Donner le mot de passe OpenStack pour accéder au stockage d'objets."
+
+msgid "PostgreSQL admin password"
+msgstr "Mot de passe de l'administrateur PostgreSQL"
+
+msgid "Specify the PostgreSQL database properties"
+msgstr "spécifier les propriétés de la base de données PostgreSQL"
+
+msgid "A volume will be created to host the PostgreSQL databases."
+msgstr "Un volume sera créé pour les bases de données PostgreSQL."
+
+msgid "Size of the volume (in GB) to be created for PostgreSQL."
+msgstr "Taille du volume (en Go) à créer pour PostgreSQL."
+
+msgid "WordPress Configuration"
+msgstr "Configuration de WordPress"
+
+msgid "Specify WordPress configuration properties"
+msgstr "spécifier les propriétés de WordPress"
+
+msgid "Please provide the password that is going to be used to connect to the database."
+msgstr "indiquer le mot de passe qui servira à se connecter à la base de données."
+
+msgid "Delete in progress"
+msgstr "Suppression en cours"
+
+msgid "Delete FAILURE"
+msgstr "ÉCHEC de la suppression"
+
+msgid "Deploy FAILURE"
+msgstr "ÉCHEC du déploiement"
+
+msgid "Password must be between 5 and 100 characters long."
+msgstr "Le mot de passe doit avoir de 5 à 100 caractères."
+
+msgid "Password must be between 5 and 20 characters long."
+msgstr "Le mot de passe doit avoir de 5 à 20 caractères."
+
+msgid "Please provide the PostgreSQL admin password."
+msgstr "Donner le mot de passe de l'administrateur PostgreSQL."
+
 # # mj
 msgid "Application Catalog"
 msgstr "Répertoire d'applications"
@@ -311,6 +389,9 @@ msgstr "Créer un environnement"
 #: environments/tables.py:125 environments/workflows.py:68
 msgid "Environment"
 msgstr "Environnement"
+
+msgid "Environment:"
+msgstr "Environnement:"
 
 #: environments/tables.py:69 environments/tables.py:99
 #, fuzzy
@@ -900,12 +981,10 @@ msgstr "Journaux de déploiement"
 #: templates/deployments/_reports_page_header.html:11
 #: templates/services/_detail_page_header.html:10
 #: templates/services/_page_header.html:12
-#, fuzzy
 msgid "environments"
 msgstr "Environnements"
 
 #: templates/deployments/_reports_page_header.html:6
-#, fuzzy
 msgid "Deployment information"
 msgstr "Historique du déploiement"
 
@@ -1161,7 +1240,6 @@ msgid "Environment: %(environment_name)s"
 msgstr "Environnement des déploiements "
 
 #: templates/services/_wizard_create.html:9
-#, fuzzy
 msgid "Add Application to "
 msgstr "Ajouter une application"
 

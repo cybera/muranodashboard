@@ -30,7 +30,7 @@
     {% for title, description in field_descriptions %}
         <p>
         {% if title %}
-            <strong>{% blocktrans %}{{ title }}:{% endblocktrans %}</strong>
+            <strong>{% blocktrans %}{{ title }} :{% endblocktrans %}</strong>
         {% endif %}
         {% trans description|linebreaksbr %}
         </p>

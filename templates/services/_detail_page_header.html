@@ -7,10 +7,10 @@
       </h2>
       <h3>
           <a href=" {% url 'horizon:murano:environments:index' %}">
-              {% blocktrans %}environments{% endblocktrans %}
+              {%trans "environments" %}
           </a> >
           <a href=" {% url 'horizon:murano:environments:services' service.environment_id %}">
-              {% blocktrans %}environment {{ environment_name }}{% endblocktrans %}
+              {%trans "environment" %} {{ environment_name }}
           </a>
           {% blocktrans %} > component {{ service_name }}{% endblocktrans %}
 

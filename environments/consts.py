@@ -77,11 +77,11 @@ STATUS_DISPLAY_CHOICES = (
 )
 
 DEPLOYMENT_STATUS_DISPLAY_CHOICES = (
-    (DEP_STATUS_ID_COMPLETED_W_ERRORS, 'Failed'),
-    (DEP_STATUS_ID_COMPLETED_W_WARNINGS, 'Completed with warnings'),
-    (DEP_STATUS_ID_RUNNING, 'Running'),
-    (DEP_STATUS_ID_RUNNING_W_ERRORS, 'Running with errors'),
-    (DEP_STATUS_ID_RUNNING_W_WARNINGS, 'Running with warnings'),
-    (DEP_STATUS_ID_SUCCESS, 'Successful'),
-    ('', 'Unknown'),
+    (DEP_STATUS_ID_COMPLETED_W_ERRORS, _('Failed')),
+    (DEP_STATUS_ID_COMPLETED_W_WARNINGS, _('Completed with warnings')),
+    (DEP_STATUS_ID_RUNNING, _('Running')),
+    (DEP_STATUS_ID_RUNNING_W_ERRORS, _('Running with errors')),
+    (DEP_STATUS_ID_RUNNING_W_WARNINGS, _('Running with warnings')),
+    (DEP_STATUS_ID_SUCCESS, _('Successful')),
+    ('', _('Unknown')),
 )

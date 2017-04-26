@@ -132,9 +132,7 @@ class UpdateEnvironmentInfoAction(workflows.Action):
     class Meta:
         name = _("Environment Info")
         slug = 'environment_info'
-        help_text = _("Environment defines the run time context for the "
-                      "application including all the application images, "
-                      "automatically generated network configuration")
+        help_text = _("Environment defines the run time context for the  application including all the application images, what container services they run on, and the associated automatically generated network configuration.")
 
 
 class UpdateEnvironmentInfo(workflows.Step):
